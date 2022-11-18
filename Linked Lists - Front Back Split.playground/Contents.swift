@@ -61,9 +61,7 @@ func frontBackSplit(source: Node?, front: inout Node?, back: inout Node?) throws
         front?.next = temp
         index += 1
     }
-//    let temp = front
-//    front = source
-//    front?.next = temp
+
 }
 
 try frontBackSplit(source: source, front: &front, back: &back)
